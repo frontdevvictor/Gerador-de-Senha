@@ -153,3 +153,13 @@ body{
 .generate-btn:hover{
     background: #333;
 }
+
+.generate-btn:active{
+    transform: scale(0.95);
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
